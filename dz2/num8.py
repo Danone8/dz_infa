@@ -1,5 +1,5 @@
 n = int(input())
-a = input().split()
+a = list(map(int, input().split()))
 
 for i in range(n):
     c_more = 0

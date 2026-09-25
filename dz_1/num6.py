@@ -10,7 +10,7 @@ with open('input.txt', 'r') as f1:
     elif op == '-':
         res = numbers[0]
         for i in numbers[1:]:
-            res -= 1
+            res -= i
     else:
         res = 1
         for i in numbers:

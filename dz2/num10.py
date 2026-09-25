@@ -1,4 +1,4 @@
-with open(r'C:\it\lesson2\dz2\text.txt', 'r', encoding='utf-8') as f:
+with open('text.txt', 'r', encoding='utf-8') as f:
     a = f.read()
 glasn = 'уеыаоэяиюё'
 res = ''
