@@ -1,0 +1,7 @@
+n, b, c = input().split()
+p = int(n, int(b))
+res = ''
+while p:
+    res = str(p%int(c)) + res
+    p //= int(c)
+print(res)
