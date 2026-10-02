@@ -1,6 +1,8 @@
-size, symb = list(map(int, input().split()))
+size, symb = input().split()
 
-def f(a, b):
-    if a == 1: 
-        print(b)
-        st = b
+def triang(size, symb):
+    for i in range(size):
+        n = min(i + 1, size - i)
+        print(symb * n)
+
+triang(int(size), symb)
