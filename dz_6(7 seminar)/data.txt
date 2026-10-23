@@ -1,0 +1,2 @@
+Star 15 green 1.989e30 0 0 0 0
+Planet 5 cyan 5.972e24 1.496e11 0 0 28000
